@@ -1,0 +1,22 @@
+octopus:
+  environments:
+    - development
+    - production
+  development:
+    shards:
+      indonesia:
+        adapter: postgresql
+        encoding: utf8
+        pool: 5
+        host: localhost
+        username: cybergarage
+        password: 123456
+        database: human_indonesia1_development
+      japan:
+        adapter: postgresql
+        encoding: utf8
+        pool: 5
+        host: localhost
+        username: cybergarage
+        password: 123456
+        database: human_japan1_development

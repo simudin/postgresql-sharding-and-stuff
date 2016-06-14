@@ -1,4 +1,5 @@
 class CreateTherapists < ActiveRecord::Migration
+	using(:master, :indonesia, :japan)
   def change
     create_table :therapists do |t|
       t.string :name
